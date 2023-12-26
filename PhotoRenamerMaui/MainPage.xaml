@@ -1,0 +1,10 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="PhotoRenamerMaui.MainPage">
+    <StackLayout>
+        <Label x:Name="_label" />
+        <Entry x:Name="_entrySourceDir" Placeholder="Введите путь папки с фотографиями" />
+        <Entry x:Name="_entryDestDir" Placeholder="Введите путь папки назначения" />
+        <Button Text="Начать" Clicked="OnStartClicked" />
+    </StackLayout>
+</ContentPage>

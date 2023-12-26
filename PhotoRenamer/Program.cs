@@ -1,4 +1,4 @@
-﻿
+﻿using Utility;
 Console.WriteLine("Привет! Введиите путь папки где хранятся фотографии.");
 
 string sourceDir = Console.ReadLine();
